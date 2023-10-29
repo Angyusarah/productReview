@@ -20,7 +20,11 @@
   <main class="main">
     <article class="card">
       <div class="image">
-         <img src="images/image-product-desktop.jpg" alt="perfume">
+         <!-- <img src="images/image-product-desktop.jpg" alt="perfume"> -->
+         <picture>
+          <source media="(min-width: 800px)" srcset="images/image-product-desktop.jpg" alt="mobile design">
+          <img src="images/image-product-mobile.jpg" alt="desktop design">
+         </picture>
       </div>
 
       <div class="text">
